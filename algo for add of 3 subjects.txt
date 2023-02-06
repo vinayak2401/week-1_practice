@@ -1,0 +1,6 @@
+1 read subject 1
+2 read subject 2
+3 read subject 3
+4 add 3 subjects
+5 display added result
+6 display result of addition divide by total no of subjects
