@@ -1,0 +1,6 @@
+step1: read employee salary
+step2: read shopping bill 1
+step3: read shopping bill 2
+step4: read shopping bill 3
+step5: display total of all 3 shopping bill
+step6: display total divided by employee salary and multiply with 100
