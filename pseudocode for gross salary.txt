@@ -1,0 +1,9 @@
+begin
+number gross,basic,hra,da
+print("enter basic salary")
+input basic
+hra=(basic/10)*6.7
+da=(basic/10)*8.9
+gross=basic+hra+da
+print("your gross is:",gross)
+end

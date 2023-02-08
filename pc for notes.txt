@@ -1,0 +1,50 @@
+Begin
+
+   number amount,n1,n2,n3
+
+   print("Enter the withdrawl amount")
+
+   input amount    
+   if amount%100 != 0
+
+   {
+
+  print("invalid amount")
+
+   }
+
+   else if amount>500
+
+   {
+
+   n1=amount/500
+
+   amount=amount%500
+
+   }
+
+   if amount>200
+
+   {
+
+  n2=amount/200
+
+  amount=amount%200
+
+   }
+
+  if amount>100
+
+   {
+
+  n3=amount/100
+
+  amount=amount%100
+
+   }  
+print(n1," 500 notes")
+
+print(n2," 200 notes") 
+
+print(n3," 100 notes") 
+end

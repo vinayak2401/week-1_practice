@@ -1,0 +1,15 @@
+begin
+number num
+print("enter the number")
+input num
+if num%2!=0
+{
+print("odd number")
+}
+else if num==0{
+print("zero")
+}
+else{
+print("even number")
+}
+end

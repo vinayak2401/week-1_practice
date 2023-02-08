@@ -1,0 +1,23 @@
+begin
+
+number num1,num2,add,sub,mul,div
+char operation
+print("enter 1st number")
+input num1
+print("enter 2nd number")
+input num2
+print("enter operation to perform(ex: + - * /)")
+input operation
+if operation=='+':
+	add=num1+num2
+	print("answer is:",add)
+else if operation=='-':
+	sub=num1-num2
+	print("answer is:",sub)
+else if operation=='*':
+	mul=num1*num2:
+	print("answer is:",mul)
+else:
+	div=num1/num2
+	print("answer is:",div)
+end

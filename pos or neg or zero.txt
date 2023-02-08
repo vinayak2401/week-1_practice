@@ -1,0 +1,16 @@
+begin
+
+number num
+print("enter the number")
+input num
+if num>o
+{
+	print("positive number")
+}
+else if num==0{
+print("zero")
+}
+else{
+print("negative number")
+}
+end

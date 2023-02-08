@@ -1,0 +1,25 @@
+begin
+
+string s_name,s_email,s_college,s_city
+number s_marks,s_mobile	
+print("enter student name")
+input s_name
+print("enter student marks")
+input s_marks
+print("enter student mobile")
+input s_mobile
+print("enter student email")
+input s_email
+print("enter student college")
+input s_college
+print("enter student city")
+input s_city
+print("complete details of the student is as follows:")
+print("Name:",s_name)
+print("Marks:",s_marks)
+print("Mobile no:",s_mobile)
+print("Email id:",s_email)
+print("College:",s_college)
+print("City:",s_city)
+
+end

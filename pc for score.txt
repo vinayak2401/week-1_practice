@@ -1,0 +1,46 @@
+begin
+ number project,external,internal,total,a,b,c
+ print("enter project marks")
+ input project
+ print("enter external marks")
+ input external
+ print("enter internal marks")
+ input internal
+ if (project>=50&&external>=50&&internal>=50)
+{
+	a=(project/10)*7
+	input a
+	b=(external/10)*2
+	input b
+	c=(internal/10)*1
+	input c
+	total=a+b+c
+	input total
+	if(total>90){
+		print("A grade")
+	}
+	else if(total>70&&total<90){
+		print("B grade")
+	}
+	else{
+		print("C grade")
+	}
+else
+{
+	if(project<50)
+	{
+		print("failed subject is",project)
+		print("Marks is",a)
+	}
+	else if(external<50)
+	{
+		print("failed subject is",external)
+		print("Marks is",b)
+	}
+	else
+	{
+		print("failed subject is",internal)
+		print("Marks is",c)
+	}
+}
+end
