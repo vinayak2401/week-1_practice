@@ -1,0 +1,12 @@
+begin
+
+number num
+print("enter a number to create a table")
+input num
+
+for(i=num;i<=10;i++)
+{
+	vi=num*i
+	print(num"*"i"=",vi)
+}
+end

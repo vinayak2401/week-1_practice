@@ -1,0 +1,21 @@
+begin
+	number num,i=1,count=0
+	print("enter number to find number of factors")
+	input num
+	while(i<=num/2)
+	{
+		if(num%i==0)
+		{
+			count=count+1
+		}
+		i=i+1
+	}
+	if(count==1){
+	
+	print("prime number")
+	}
+	else
+	{
+	print("prime number")
+	}
+end

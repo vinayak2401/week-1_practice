@@ -1,0 +1,30 @@
+begin
+
+number num, i=1,s=0
+
+print("enter the number to find factors")
+
+input num
+
+while (i<=num/2)
+
+{
+
+  if (num%i==0)
+
+  {
+
+  
+   s=s+i
+  }
+   i=i+1
+
+}
+if(s==num)
+{
+print("perfect number")
+}
+else{
+print("not perfect")
+}
+end

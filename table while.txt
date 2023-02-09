@@ -1,0 +1,17 @@
+begin
+
+number num
+print(enter a number to create a table)
+input num
+while(i<=10)
+
+{
+
+  vi=num*i
+
+  print("num*i=vi")
+
+  i=i+1
+
+}
+end

@@ -1,0 +1,13 @@
+begin
+	number fact,n
+	print("enter the number to see the factors")
+	input fact
+	print("all factors of",fact"are:")
+	for(n=1;n<=fact;n++)
+	{
+		if(fact%n==0)
+		{
+			print(n)
+		}
+	}
+end

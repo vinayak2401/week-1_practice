@@ -1,0 +1,25 @@
+begin
+	number fact,n,t
+	input t=0
+	print("enter the number to see the number of factors")
+	input fact
+	print("number of factors are:")
+	for(n=1;n<=fact;n++)
+	{
+		if(fact%n==0)
+		{
+			
+			t=t+1
+		
+		}
+		n=n+1
+	}
+	if(t==fact)
+	{
+	print("t is perfect")
+	
+	else
+	{
+	print("t is not perfect")
+	}
+end
