@@ -1,0 +1,16 @@
+begin
+	number pin
+	string y
+	print("enter the pin")
+	input pin
+	if pin isvalid
+		print("want to check balance? press y or n")
+		input y
+		if y==y
+			print("balance is displayed")
+		
+		else
+			print("exitted")
+	else
+		print("invalid pin")
+end

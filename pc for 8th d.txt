@@ -1,0 +1,17 @@
+begin
+	number pin,account
+	string y
+	print("enter the pin")
+	input pin
+	if pin isvalid
+		print("want to pay the bill? press y or n")
+		input y
+		if y==y
+			print("enter the otp sent to registered no")
+			input account
+			print("payment successful")
+		else
+			print("exitted")
+	else
+		print("invalid pin")
+end

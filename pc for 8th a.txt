@@ -1,0 +1,16 @@
+begin
+	number pin,amount
+	string y
+	print("enter the pin")
+	input pin
+	if pin isvalid
+		print("want to withdraw amount? press y or n")
+		input y
+		if y==y
+			print("enter amount")
+			input amount
+		else
+			print("exitted")
+	else
+		print("invalid pin")
+end
