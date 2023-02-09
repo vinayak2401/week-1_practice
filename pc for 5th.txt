@@ -1,0 +1,14 @@
+begin
+	number start,stop
+	print("enter start and stop values")
+	input start
+	input stop
+	while true
+		start<stop
+		while start<=stop
+			print(start)
+			start=start+1
+		while start>=stop
+			print(start)
+			start=start-1
+end

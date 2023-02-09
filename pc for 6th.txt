@@ -1,0 +1,8 @@
+begin
+	number sum,num
+	input num=1
+	input sum=0
+	while num>=10
+		print(num)
+		sum=sum+num
+end

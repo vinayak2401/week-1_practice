@@ -1,0 +1,16 @@
+begin 
+     number num=1,eve=0,odd=0
+     while num<=10
+          if num%2==0
+		{
+             seven=seven+num
+             num=num+1
+		}
+          else
+		{
+             sodd=sodd+num
+             num=num+1
+		}
+     print("sum of even numbers first 10 number is",seven)
+     print("sum of odd numbers first 10 number is",sodd)
+end
