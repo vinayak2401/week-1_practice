@@ -1,0 +1,17 @@
+begin
+number num,num1
+print("enter a number to check")
+input num
+while(num!=0)
+{
+	num1=num[::-1]
+	if(num1==num)
+	{
+		print("pallindrome")
+	}
+	else
+	{
+		print("not pallindrome")
+	}
+}
+end

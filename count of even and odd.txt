@@ -1,0 +1,22 @@
+begin
+number num,ecount=0,ocount=0
+print("enter number to find even and odd")
+input num
+
+while(num!=0)
+{
+	if(num%2==0)
+	{
+		ecount+=1
+	}
+	else
+	{
+		ocount+=1
+	}
+num/10
+}
+print("even count is:",ecount)
+print("odd count is:",ocount)
+
+end
+	

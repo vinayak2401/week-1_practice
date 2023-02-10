@@ -1,0 +1,17 @@
+begin
+number num,rev
+print("enter a number")
+input num
+while(num!=0)
+{
+	rev=num[::-1]
+	if(num==rev)
+	{
+		print(rev)
+	}
+	else
+	{
+	break
+	}
+}
+end

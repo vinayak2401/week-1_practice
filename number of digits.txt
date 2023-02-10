@@ -1,0 +1,10 @@
+begin
+   number num,count=0
+   print("Enter number to find number of digits")
+   input num;     while(num!=0) 
+    {
+         num=num/10;         
+        count=count+1        
+     }
+    print("number of digits: ",count);
+End

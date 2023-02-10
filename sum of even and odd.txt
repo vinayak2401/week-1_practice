@@ -1,0 +1,22 @@
+begin
+number num,esum=0,osum=0
+print("enter number to find even and odd")
+input num
+
+while(num!=0)
+{
+	if(num%2==0)
+	{
+		esum=num+esum
+	}
+	else
+	{
+		osum=num+osum
+	}
+num/10
+}
+print("sum of even count is:",esum)
+print("sum of odd count is:",osum)
+
+end
+	
